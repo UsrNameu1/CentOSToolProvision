@@ -1,0 +1,4 @@
+---
+- name: install tmux
+  yum: name=tmux state=latest
+  become: yes
